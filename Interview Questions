@@ -1,0 +1,84 @@
+
+
+
+1. Tell me about your day to day task.
+
+2. Assume in your cluster 15 worker nodes and you want to schedule pods only on 5 nodes. How you'll achieve this?
+
+3. On one node showing disk pressure issue? How will you check the same? And how will you access the node?
+
+4. Two pod on two seperate namespace, developer saying they are not able communicate both pod? What will you check and how to communicate same?
+
+5. A application exhaust resources on a pod, how'll you set limit, so user can't limit in deployment?
+
+6. How'll expose a application? and how service know, these pods should be exposed?
+
+7. Assume kubelet service is not coming up on the node? So what'll you check?
+
+8. Application is not accessible what'll you check?
+
+9. In upgradation what issues you've faced and how to resolve them?
+
+10. Assume while upgrading clusters some operators are Degraded. How'll you resolve them?
+
+11. How many operators in your project?
+
+12. From which user you're accessing openshift account?
+-------------------------------------------------------------------------------------------------------
+
+1. Explain Openshift architecture.
+
+2. Check cluster version
+
+3. Steps to install Openshift using UPI
+
+4. Steps to Upgrade Cluster
+
+5. What CVO (cluster version operator) will do that?
+
+6. Do you have of exposure on renewal of certificate wildcard api (did get chance renew the certificate), how will you get the certificate?
+
+7. What is the process suppose one of the user want to access openshift cluster. How will onboard?
+
+8. Application team said application is not accessible, how will you start the troubleshooting. Get me the flow.
+
+9. Want is the use of Taint & toleration
+
+10. What is pdb? What is the use of pdb?
+
+11. How can be Ensure have backup of the cluster, How can be restored it? What are the key components of backup you supposed to take backup?
+
+12. Difference between stateful and stateless deployment?
+
+13. How to take application database backup?
+
+14. What are the Key components of monitoring you are in place, maintained the integrity, what are the key component you are enabling?
+
+15. What is the use of olm operator?
+
+16. Have you been created cluster deployment setup as well?
+
+17.  During the upgrade my bootstrap node having issues is not coming up, I want you to troubleshoot that for me.
+
+18. During Upgradation Cluster my authentication operator gone down, how'll you troubleshoot?
+
+19. What is the difference between corden and uncorden?
+
+20. What are node affinity and node anti-affinity
+
+21. When hit  oc apply -f deploy.yaml what chain of events which will happened in  behind?
+
+22.  Assume a scenario a cluster having 200 application and the cluster having only one ingress controller now want to add one more ingress controller and distribute load is it possible or not?  If yes Then how can be done?
+
+23. Have chance to work with ACM(ADVANCE CLUSTER manager)? Do you know about it?
+
+24. What is the purpose of metal lb? In which case we use this.
+
+25. Have you worked with Argocd? I do have a scenario I do have one Argocd instance, now I wanted to deploy 10 cluster and wanted to utilise this particular Argocd? Is this possible? How it can be done?
+
+26. I've one namespace, some parameters related to suppliment groups, what are suppliments groups? Use case of suppliment groups?
+
+27. Diff between oc apply and oc create?
+
+
+
